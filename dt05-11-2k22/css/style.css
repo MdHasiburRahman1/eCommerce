@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+
+}
+.haderContent{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+.contern{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    margin: 200px 0 0 150px;
+    float: left;
+    overflow:visible;
+
+}
+.contern h3{
+    color: #000;
+    font-weight: 800;
+    font-size: 26px;
+    text-transform: capitalize;
+    
+}
+.contern h3 span{
+    color:rgba(237, 35, 12, 0.895);
+    font-size: 50px;
+}
+.contern h3 span span{
+    color:darkorchid;
+}
+.contern p{
+    padding: 15px 0;
+    font-weight: 700;
+    margin-bottom: 30px;
+    font-size: 13px;
+    letter-spacing: 0.10em;
+    line-height: 2em;
+}
+.contern .btn{
+    background-color:rgba(237, 35, 12, 0.895);
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+
+}
+.contern .btn:hover{
+    background-color: #fafafa;
+    box-shadow: 3px 2px 11px rgba(117, 90, 221, 0.616);
+    color:rgba(237, 35, 12, 0.895);
+    color: #000;
+}
+.imgeSide{
+ float: left;
+ position: absolute;
+ width: 50%;
+ right: 150px;
+
+}
+.imgeSide img{
+    width: 450px;
+    height: 450px;
+    margin: 86px 270px;
+
+}
+.socialIcon{
+    margin-top: 50px;
+    list-style: none;
+    width: auto;
+    height: 40px;
+    
+
+}
+.socialIcon li{
+    float: left;
+    padding-right: 20px;
+    
+
+}
+.socialIcon li:last-child{
+    padding-right: none;
+}
+
+.socialIcon li a img{
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+}
+.socialIcon li a img:hover{
+    box-shadow: 3px 2px 11px rgba(133, 98, 249, 0.688);
+}
+
+/* biogarphy start */
+.biography{
+    width: 100%;
+    height: 650px;
+    background-image: url(./img/biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.imgSide{
+    width: 50%;
+    height: fit-content;
+    position:absolute;
+    float: left;
+    display: flex;
+}
+.imgSide img{
+    width: 450px;
+    height: 500px;
+    margin-left: 150px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    padding-bottom: 30px;
+
+}
+.biography .contentSide{
+    width: 50%;
+    right: 0;
+    height: auto;
+    float: right;
+    position: absolute;
+    padding-top: 200px;
+
+}
+.biography .contentSide h3{
+    color: #000;
+    letter-spacing: 0.30em;
+    padding-bottom: 20px;
+    font-weight: 800;
+    text-shadow: 2px 2px 6px black;
+}
+.biography .contentSide p{
+    color: #000;
+    font-weight: 400;
+    padding-bottom: 50px;
+    line-height: 2.3em;
+    letter-spacing: 0.13em;
+}
+.biography .contentSide .btn{
+background-color:rgba(237, 35, 12, 0.895);
+padding: 10px 20px;
+border-radius: 8px;
+cursor: pointer;
+text-transform: uppercase;
+transition: all 0.3s ease-in-out;
+
+}
+.biography .contentSide .btn:hover{
+background-color: #fafafa;
+box-shadow: 3px 2px 11px rgba(117, 90, 221, 0.616);
+color:rgba(237, 35, 12, 0.895);
+color: #000;
+}
+
+/* biogarphy end */
+/* lettest work start */
+.work{
+    width: 100%;
+    height:90vh;
+    background: url(./img/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.work img{
+    width: 31%;
+    height: 400px;
+    margin-left: 2%;
+    float: left;
+    border-radius: 10px;
+    transition: box-shadow .6s ease;
+
+}
+.work img:hover{
+    box-shadow: 11px 9px 30px black;
+}
+
+.work h3{
+    padding-bottom: 50px;
+    color: #000;
+    letter-spacing: 0.30em;
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 90px;
+    font-size: 23px;
+    text-transform: capitalize;
+    text-shadow: 2px 2px 6px black;
+}
+
+
+/* lettest work end */
+/* fotter area start */
+.fotterArea{
+    width: 100%;
+    height: 600px;
+    background-image: url(./img/footer-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.fotterArea >h1{
+    color: #000;
+    font-size: 40px;
+    font-weight: 600;
+    text-shadow: 2px 2px 10px black;
+    padding-top: 150px;
+}
+.fotterArea > h4{
+    font-size: 25px;
+    margin-top: 60px;
+}
+.fotterArea .founder{
+    font-size: 16px;
+    margin-top: 10px;
+}
+.fotterArea .details{
+    width: 800px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.15em ;
+    line-height: 1.4em;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.box{
+    width: 800px;
+    height: 120px;
+    background-color:rgba(237, 35, 12, 0.895);
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 6px 6px 30px black;
+    margin-bottom: 100px;
+
+}
+.box p{
+    padding-top: 10px;
+    color: #fff;
+    letter-spacing: 0.2em;
+    font-weight: 800;
+    padding-bottom: 30px;
+}
+.box h2{
+    color:#fff;
+    letter-spacing: 0.3em;
+}
+.fotterArea .copy{
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: .3em;
+    margin-bottom: 10px;
+}
+/* fotter area end */
+
